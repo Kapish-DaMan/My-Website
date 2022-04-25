@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+}
+#app{
+    width:100%;
+    height: 800px;
+    background-color: #31e8f5;
+}
+#myCarousel{
+    width:100%;
+    height: 800px;
+    background-color: rgb(163, 95, 227);
+}
+#chatbot{
+    width:100%;
+    height: 800px;
+    background-color: #31e8f5;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+img{
+    width: 400px;
+    transition: transform .2s;
+}
+img:hover{
+    transform:scale(0.9);
+}
